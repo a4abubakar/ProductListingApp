@@ -1,0 +1,82 @@
+/** The main css file includes custom css **/
+
+/** custom
+sass src/styles/index.scss src/index.css
+poll for changes and automatically compiles
+  sass --watch src/styles/index.scss:src/index.css
+  #Allow you to include sass file directily into reactjs imports
+  npm install node-sass --save
+Install bootstrap sass
+npm install bootstrap-sass
+**/
+
+@import url("https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Two+Tone|Material+Icons+Sharp");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap");
+
+@import "bootstrap";
+
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.material-icons,
+.material-icons-outlined {
+  vertical-align: middle;
+  margin-top: -2px;
+
+  &.md-12 {
+    font-size: 12px;
+  }
+
+  &.md-14 {
+    font-size: 12px;
+  }
+
+  &.md-16 {
+    font-size: 16px;
+  }
+
+  &.md-18 {
+    font-size: 18px;
+  }
+
+  &.md-20 {
+    font-size: 20px;
+  }
+
+  &.md-24 {
+    font-size: 24px;
+  }
+
+  &.md-32 {
+    font-size: 32px;
+  }
+
+  &.md-36 {
+    font-size: 36px;
+  }
+
+  &.md-48 {
+    font-size: 48px;
+  }
+
+  &.md-64 {
+    font-size: 64px;
+  }
+
+  &.md-72 {
+    font-size: 72px;
+  }
+
+  &.md-84 {
+    font-size: 84px;
+  }
+
+  &.md-96 {
+    font-size: 96px;
+  }
+
+  &.md-120 {
+    font-size: 120px;
+  }
+}

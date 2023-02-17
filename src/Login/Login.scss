@@ -1,0 +1,19 @@
+.Login .list-inline li+li::before {
+    content: " | ";
+}
+
+.list-inline {
+    color: #9f9fa1;
+    font-size: 14px;
+    display: inline;
+}
+
+.Login .card {
+    width: 100%;
+}
+
+.Login .input-group-prepend .btn {
+    border: 1px solid #ddd;
+    border-left: none;
+    border-radius: 0 3px 3px 0;
+}
